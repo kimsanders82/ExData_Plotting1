@@ -43,7 +43,7 @@ plot(myData$SetTime, myData$Sub_metering_1, type="l", xlab="", ylab="Energy sub 
 lines(myData$SetTime, myData$Sub_metering_2, type="l", col="red")
 lines(myData$SetTime, myData$Sub_metering_3, type="l", col="blue")
 legend("topright", bty="n", legend=myLabels, lty=1, col=myLineColors)
-plot(myData$SetTime, myData$Global_reactive_power, type="l", col="black", xlab="datetime", ylab="Global_reactive_power")
+plot(myData$SetTime, myData$Global_reactive_power, type="l", lwd=1, col="black", xlab="datetime", ylab="Global_reactive_power")
 
 dev.off()
 
